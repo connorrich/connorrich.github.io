@@ -1,0 +1,11 @@
+---
+# This file gets processed by Jekyll’s Sass compiler.
+# The three-dashes above are required but the body can be pure SCSS.
+---
+// 1) Import all of Minima’s styles
+@import "minima";
+
+.site-nav {
+    display: flex;   // ensure the links sit side by side
+    gap: 2rem;       // adjust this value to taste
+  }
